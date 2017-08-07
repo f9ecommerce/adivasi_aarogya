@@ -2434,9 +2434,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .navbar-right{ float: left !important; }
 /*li.home{ margin-left: 60%; }*/
-li.home {
+/*li.home {
     margin-left: 166px;
-}
+}*/
 
 
 .blogShort{ border-bottom:1px solid #ddd;}
@@ -2498,3 +2498,49 @@ h2{color:#0b56a8;}
   font-size: 19px;
 }
 
+@media only screen and (max-width: 420px) {
+  .mobile_dept_heading{
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  .mobile_dept_heading p {
+    color: #fff;
+  }
+
+  .mobile_logo_images{
+    width: 137% !important;
+    margin-top: -17px !important;
+    margin-left: -25px;
+  }
+
+  .top-nav{
+    top: 0;
+    position: fixed;
+    right: 0;
+    background: none;
+  }
+
+  .banner {
+    margin-top: 0;
+  }
+  .navbar-fixed-top{
+    position: relative;
+  }
+  .response_nav{
+    z-index: 9999;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 880px) {
+  .mobile_dept_heading {
+    width: 53%;
+    margin-left: -25%;
+  }
+
+  img.mobile_logo_images {
+    width: 137% !important;
+    margin-top: -30px !important;
+    margin-left: 50px;
+  }
+}
