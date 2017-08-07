@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Its a child screening health application.">
+<meta name="keywords" content="health child - healthy nation,preventive care, medical history, aarush, health application, child health, children's health, millennium development goal, Rashtriya Bal Swasthya Karyakram (RBSK), child diseases, Child Immunization, Thrill, 3il, Innovative, Labs, Aarush, immunization chart, growth chart, referrals, health solution, child health records">
+<meta name="keywords" content="Aarush, RBSK, Health, Child, Preventive care solution, Treatment, Screening, Referral, HIPAA Compliant, Digi Locker, Health Records, Growth Chart, Health Chart, Immunization, Vaccination, Cloud Database, Screening Application, Disease, Defects at Birth, Deficiency, Developmental Delay, Adolescent, Health Mobile Application, Appointments, Alerts , Facilities, Communicable Disease, Non Communicable Disease, Supply Chain, Training, Health Facilities, Facilities, Identify, Child Health, DMS, Document Management System, Refer, Developmental stages, Infancy, Infants, Monitor, Health records, Interactive Dashboard, Offline Solution, Hybrid Application, Down Syndrome, Congenital Cataract, Cleft lip & Palate,  Developmental dysplasia of the hip,  Club Foot,  Neural tube defect,  Congenital heart diseases,  SAM,  Severe Anemia,  Vitamin A Deficiency (Bitot spot),  Vitamin D Deficiency, (Rickets), Convulsive disorder,  Otitis Media,  Dental Conditions,  Skin Conditions,  Reactive Airway Disease, Neuro Motor Impairment,  Motor Delay,  Hearing, Impairment, Learning Disorder,  Vision Impairment,  Language delay,  Cognitive delay,  Behavior disorder,  Convulsive disorder, Growing up concerns,  Substance abuse,  Depression,  Menstrual disorder, Genitourinary , disorder, Children Health Application, 0-18 years, Health records at finger tips"/>
+
+<meta name="keywords" content="Thrill, 3il, Innovative, Labs, Aarush, Sparsh, Trividya, Startup, Accelerator, Intrapreneurs, Entrepreneurs, Technology, business transformation, InnovationLabs, knowledge creation, insight creation, innovations, products, product, company, products company, industry revolution"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Aadivasi Aarogyam</title>
+<link rel="icon" href="images/aalogo.png">
+<link rel="stylesheet" href="css/magic.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="css/w2ui-1.4.2.min.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href='https://fonts.googleapis.com/css?family=Dosis:400,600,700,800,300,500' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="css/font-awesome.css">
+<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="css/owl.carousel.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script>
+	
+	jQuery(document).ready(function($) {
+    jQuery("#slider").owlCarousel({
+        slideBy: 1,
+        navSpeed : 3000,
+        nav: false,
+        pagination:false,
+      	autoplay:true,
+		autoplayTimeout:10000,
+		//autoplayHoverPause:true,
+      	loop: true,
+      	items:1,
+      });
+   jQuery('#carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+         320:{
+            items:2,
+            nav:false
+        },
+        380:{
+            items:2,
+            nav:false
+        },
+        480:{
+            items:3,
+            nav:false
+        },
+        600:{
+            items:4,
+            nav:false
+        },
+        800:{
+            items:5,
+            nav:true,
+            loop:false
+        },
+        960:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
+
+});
+</script>
+
+
+
+<script type="text/javascript">
+	$(function() {              
+	 $(".nav_icon").click(function() { 
+		$(".response_nav").toggleClass("move_menu");
+	  });
+	  $(".response_nav ul li a").click(function() { 
+		$(".response_nav").toggleClass("move_menu");
+	  });
+	  
+	  /******************/
+	  $(".view_more").click(function() { 
+		$(".owl-stage").addClass("move_banner");
+	  });
+	  
+	  /**************/
+	 
+	});
+</script>
+
+<script type="text/javascript">
+	$(window).load(function(){
+			var str = "Thumbnail Slider trial version";
+			str = str.replace("Thumbnail Slider trial version", "");
+		
+			$('.fullarticle').hide();
+			$('#article1').show();
+		$('.diseases li').mouseover(function() {
+			var i = $(this).index();
+			$('.fullarticle').hide();
+			$('#article' + (i+1)).show();
+			$('.diseases li').removeClass('active');
+			$(this).addClass('active');
+		});
+	});
+</script>
+
+    <link href="slider/ninja-slider.css" rel="stylesheet" />
+    <script src="slider/ninja-slider.js"></script>
+    <link href="slider/thumbnail-slider.css" rel="stylesheet" type="text/css" />
+    <script src="slider/thumbnail-slider.js" type="text/javascript"></script>    
+    
+    
+    <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/violet.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+
+<div class="response_nav">
+                	<ul>
+                    	<li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i>me</a></li>
+                        <li><a href="#features"><i class="fa fa-list" aria-hidden="true"></i>Features</a></li>
+                        <li><a href="#diseases"><i class="fa fa-wheelchair" aria-hidden="true"></i>Diseases</a></li>
+                        <li><a href="#statistics"><i class="fa fa-bar-chart" aria-hidden="true"></i>Statistics</a></li>
+                       <li><a href="#clients"><i class="fa fa-user" aria-hidden="true"></i>Directory</a></li>
+                       <!--  <li><a href="#about"><i class="fa fa-user" aria-hidden="true"></i>About</a></li> -->
+                        <li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+                    </ul>
+                </div>
+<!-- <div class="preloader">
+  <div id="ip-container" class="ip-container">
+	<div class="ip-header">
+		<div class="ip-loader">
+			<img src="images/baby.gif">
+		</div>
+	</div>
+</div>
+</div> -->
+<header class="header" id="home">
+    <div class="navbar bs-docs-nav navbar-fixed-top sticky-navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+               <!--  <a class="navbar-brand" href="#"><img src="images/aadivasilogo.png"></a> -->
+               <div id="mainlogo">
+    <a class="navbar-brand" href="#">
+    <img class="hidden-mobile" src="images/aadivasilogo.png" border="0" alt="" />
+    <img class="hidden-desktop" src="images/aadivasilogo1.png" border="0" alt="" />
+  </a>
+  <style type="text/css">
+      @media all and (min-width: 768px) {
+  .hidden-desktop {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+}
+  </style>
+</div>
+            </div>
+          <!--   <div class="" id="navigation">
+            
+           		<div class="nav_icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                <ul class="nav navbar-nav navbar-right main-navigation">
+                    <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                    <li><a href="#features"><i class="fa fa-list" aria-hidden="true"></i>Features</a></li>
+                    <li><a href="#diseases"><i class="fa fa-wheelchair" aria-hidden="true"></i>Diseases</a></li>
+                    <li><a href="#statistics"><i class="fa fa-bar-chart" aria-hidden="true"></i>Statistics</a></li>
+                    <li><a href="#clients"><i class="fa fa-user" aria-hidden="true"></i>Directory</a></li>
+                    <!-- <li><a href="#about"><i class="fa fa-user" aria-hidden="true"></i>About</a></li> -->
+                    <!-- <li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+    
+                </ul>
+                
+                
+                
+            </div> --> 
+            <div class="col-sm-8 top-head">
+                <div class="container">
+                    <div class="col-sm-2 ">
+                    
+                    </div>
+                    <div class="col-sm-4">
+                    <p><b>Department of Tribal Welfare</b><p>
+                        Government of Andhra Pradesh
+                    </div>
+                    <div class="col-sm-3">
+                    <img src="images/header_img.png" alt="" />
+                    </div>
+                    <div class="col-sm-3 head_item">
+                    <img src="images/header_img2.png" alt="" />
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="row top-nav">
+    <div class="container">
+        <div class="">
+       <!--  <p>test</p> -->
+        <div class="" id="navigation">
+            
+                <div class="nav_icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                <ul class="nav navbar-nav navbar-right main-navigation">
+                    <li class="home"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                    <li><a href="#features"><i class="fa fa-list" aria-hidden="true"></i>Features</a></li>
+                    <li><a href="#diseases"><i class="fa fa-wheelchair" aria-hidden="true"></i>Diseases</a></li>
+                    <li><a href="#statistics"><i class="fa fa-bar-chart" aria-hidden="true"></i>Statistics</a></li>
+                    <li><a href="#clients"><i class="fa fa-user" aria-hidden="true"></i>Directory</a></li>
+                    <!-- <li><a href="#about"><i class="fa fa-user" aria-hidden="true"></i>About</a></li> -->
+                    <li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+    
+                </ul>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+<!-- 	<div class="clearfix"></div>
+	<div class="row">
+	<div class="container">
+		<div class="">
+		<p>test</p>
+		</div>
+	</div>
+</div> -->
+
+    <section class="dark-image-bg parallax-bg" data-parallax="scroll">
+        <div class="image-wrap">
+          	<div class="banner clearfix">
+		    <div id="slider" class="owl-carousel">
+		        <div class="item">
+		                <img src="images/background/8x4 copy New - - - -- - --.jpg">
+		                <div class="wrapper">
+		                    <div class="container">
+		                        <div class="banner_content">
+		                            <!-- <h1>Healthy Child - Healthy Nation</h1>
+		                            <p>
+		                               Impeccable preventive care solution designed to screen, identify, treat and refer the child
+		                            </p>
+		                            <!-- <a> href="#" class="button">Request Demo</a> -->
+		                        </div>
+		                    </div>
+		                </div>
+		            
+		        </div>
+		        <div class="item">
+		                <img src="images/background/homebg22.jpg">
+		                <div class="wrapper">
+		                    <div class="container">
+		                        <div class="banner_content small">
+		                           <!--  <h1>Health records at your fingertips</h1>
+		                            <p>
+		                                AARUSH is crafted and designed to monitor and manage a child’s health and developmental stages from infancy through adulthood
+		                            </p> -->
+		                           
+		                        </div>
+		                    </div>
+		                </div>
+		            
+		        </div>
+		        <div class="item">
+		                <img src="images/background/homebg33.jpg" >
+		                <div class="wrapper">
+		                    <div class="container">
+		                        <div class="banner_content small">
+		                            
+		                           <h1>Immunisation Push</h1>
+                                   <p>
+                                   Propels Andhra Pradesh towards victory in war against health condition in children
+                                   </p>
+		                        </div>
+		                    </div>
+		                </div>
+		            
+		        </div>
+                <div class="item">
+		                <img src="images/background/slider_3.jpg">
+		                <div class="wrapper">
+		                    <div class="container">
+		                        <div class="banner_content small">
+		                          <h1>A digi-locker for Tribal health records</h1>
+                                   <p>
+                                   An encrypted HIPAA compliant cloud based document management system (DMS) to access your health records at any given point of time
+                                   </p>
+		                        </div>
+		                    </div>
+		                </div>
+		            
+		        </div>
+		    </div>
+		</div>
+        </div>
+    </section>
+	
+    <section id="home_content">
+    	<div class="container">
+			<h2>AP Tribal Welfare </h2>
+            <p>
+            	What the program is all about? 
+            </p>
+            
+            <!--<h3>Solution Benefits –</h3>-->
+            <!-- <ul>
+            	<li>
+                	<div class="benefit_icon"><i class="fa fa-tree" aria-hidden="true"></i></div>
+                    <div class="benefit_desc"><strong>Go Green, Go Paperless, Save a Tree </strong>- Digital data, your medical footprint on mobile
+                    </div>
+               </li>
+                <li> 
+                	<div class="benefit_icon"><i class="fa fa-registered" aria-hidden="true"></i></div>
+                   <div class="benefit_desc"> <strong>Health Grid </strong> – A comprehensive child's health chart with vitals, immunization and referral history</div>
+                </li>
+                <li>
+                	<div class="benefit_icon"><i class="fa fa-tablet" aria-hidden="true"></i></div> 
+                    <div class="benefit_desc"><strong>Digital world</strong> – Refer your patients now digitally</div>
+                </li>
+                <li>
+                	<div class="benefit_icon"><i class="fa fa-keyboard-o" aria-hidden="true"></i></div>
+                    <div class="benefit_desc"><strong>Soothing Track</strong> – Keep child’s health info at finger tips</div>
+                </li>
+                <li>
+                	<div class="benefit_icon"><i class="fa fa-exclamation-circle" aria-hidden="true"></i></div>
+                    <div class="benefit_desc"><strong>Technologically Compatible</strong> - Aarush application is a hybrid platform</div>
+                </li>
+                <li>
+                	<div class="benefit_icon"><i class="fa fa-power-off" aria-hidden="true"></i></div>
+                    <div class="benefit_desc"><strong>Offline</strong> – Modify data offline and auto-sync the data to cloud when available</div>
+               </li>
+                 <li>
+                	<div class="benefit_icon"><i class="fa fa-wheelchair" aria-hidden="true"></i></div> 
+                    <div class="benefit_desc"><strong>Patient Care</strong> – Determining what matters to patients to cure them</div>
+                </li>
+                <li>
+                	<div class="benefit_icon"><i class="fa fa-envira" aria-hidden="true"></i></div>
+                    <div class="benefit_desc"><strong>Wellness Care</strong> – Responsibility to take care to attain optimum health</div>
+                </li>
+                <li>
+                	<div class="benefit_icon"><i class="fa fa-check-square-o" aria-hidden="true"></i></div> 
+                    <div class="benefit_desc"><strong>Patient Experience</strong> – Putting patient first to ensure the consistent delivery of patient-centered care</div>
+                </li>
+                <li>
+                	<div class="benefit_icon"><i class="fa fa-code-fork" aria-hidden="true"></i></div>
+                    <div class="benefit_desc"><strong>IOT Integrated</strong> – Integrated devices to app makes life easy and efficient with remote monitoring of patient’s health statistics</div>
+                </li>
+            </ul> -->
+        <p>* Tribal Welfare Department is implementing various programs for the development of scheduled tribes, among them, promoting education is the major activity. The Tribal Welfare Department is running Ashram Schools, Residential Institutions and Govt. Primary Schools with an objective to provide better and quality educational facilities to ST students and thereby to improve the literacy among STs. A total of 2 Lakh students are studying in these institutions. These institutions are spread over (13) districts of Andhra Pradesh covering all ST children in the state <br />
+        * The tribal health status is very poor in tribal areas. As per the recent pilot survey, the percentage of Conditions identified to 13%, whereas the maximum referrals are 3%. The tribal children & students are more than 66 % anemic . These conditions are due to non-safe drinking water, life style of tribals (consuming alcohol etc.), diet habits, high anaemia etc. The tribal children are mostly suffering from club foot, cognitive delay, convulsive disorders, congenital heart diseases, dental conditions, cleft lip & palate etc <br />
+        * In spite of taking all the necessary steps, as internalizing the provisions of the schemes are slow in tribal areas, the performance of health status in tribal areas is not up to expectations<br />
+        * In this regard, a Comprehensive School Health Program is launched on 2ndOctober, 2016 in Tribal Welfare Department head quarters at Vijayawada  <br>
+        * Every year there are several incidents of tribal deaths in the agency areas ofAndhra Pradesh due to various health reasons. One of the major reason for thedeath of the ST students studying in Tribal Welfare Educational Institutions isdue to various types of anemia viz., 23 % children are critical anemic (i.e., <8mg>) and 65% children are anemic (i.e., <8mg><11mg>)            
+          </p>
+        </div>
+    </section>
+</header>
+ <section class="section-top" id="features">
+    <div class="container">
+        <h2>Features</h2>
+       
+		<div class="auto_sliding">
+        	<div class="features_right">
+            	<div id="thumbnail-slider" style="float:left;">
+            <div class="inner">
+               <ul>
+					<!--<li>
+                        <A href="#facility_management">
+                        <div class="ref_button" id="hospital_mgmt_but">
+                            <div class="icon_ring"><p><i class="fa fa-ambulance" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                 Health Facilities
+                            </div>
+                        </div>
+                        </A>
+                     </li>-->
+                     <li>
+                        <A href="#facility_management">
+                        <div class="ref_button" id="hospital_mgmt_but">
+                            <div class="icon_ring"><p><i class="fa fa-universal-access" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                 Child Tracking
+                            </div>
+                        </div>
+                        </A>
+                     </li>
+                     <li>
+                        <A href="#child_management">
+                        <div class="ref_button" id="screening_rfl_but">
+                           <div class="icon_ring"> <p><i class="fa fa-child" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                Child Records
+  
+                            </div>
+                        </div>
+                        </A>
+                     </li>
+                     <li>
+                        <a href="#screening">
+                        <div class="ref_button" id="mht_but">
+                            <div class="icon_ring"> <p><i class="fa fa-stethoscope" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                Screening 
+                            </div>
+                        </div>
+                        </a>
+                     </li>
+                     <li>
+                        <A href="#referral">
+                        <div class="ref_button" id="disease_mgmt_but">
+                            <div class="icon_ring"> <p><i class="fa fa-newspaper-o" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                Referral  
+                            </div>
+                        </div>
+                        </A>
+                     </li>
+                     <li>
+                        <A href="#aarush_planner">
+                        <div class="ref_button" id="user_mgmt_but">
+                            <div class="icon_ring"> <p><i class="fa fa-list-alt" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                Planner
+                            </div>
+                        </div>
+                        </A>
+                     </li>
+                     <li>
+                        <A href="#supply_management">
+                        <div class="ref_button" id="reports_but">
+                            <div class="icon_ring"> <p><i class="fa fa-medkit" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                Supply Chain 
+                            </div>
+                        </div>
+                        </A>
+                     </li>   
+                     <li>
+                        <A href="#medications_immu">
+                        <div class="ref_button" id="reports_but">
+                            <div class="icon_ring"> <p><i class="fa fa-history" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                Medications & Immunizations  
+                            </div>
+                        </div>
+                        </A>
+                     </li>   
+                     <li>
+                        <A  href="#disease_management">
+                        <div class="ref_button" id="reports_but">
+                            <div class="icon_ring"> <p><i class="fa fa-wheelchair-alt" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                Disease Classification  
+                            </div>
+                        </div>
+                        </A>
+                      </li>  
+                      <li>
+                        <A href="#users">
+                        <div class="ref_button" id="reports_but">
+                            <div class="icon_ring"> <p><i class="fa fa-user" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                Users   
+                            </div>
+                        </div>
+                        </A>
+                      </li>  
+                      <li>
+                        <A  href="#training">
+                        <div class="ref_button" id="reports_but">
+                            <div class="icon_ring"> <p><i class="fa fa-desktop" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                Training 
+                            </div>
+                        </div>
+                        </A>
+                      </li>  
+                      <li>
+                        <A  href="#alerts_notifications">
+                        <div class="ref_button" id="reports_but">
+                            <div class="icon_ring"> <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                Alerts & Notifications
+                            </div>
+                        </div>
+                        </A>
+                      </li>
+                      <li>
+                        <A  href="#reports_dashboards">
+                        <div class="ref_button" id="reports_but">
+                            <div class="icon_ring"> <p><i class="fa fa-bar-chart" aria-hidden="true"></i></p></div>
+                            <div class="ref_title">
+                                Analytics
+                            </div>
+                        </div>
+                        </A>
+                      </li>
+                      <li>
+                       
+                      </li>
+            
+                </ul>
+            </div>
+        </div>
+            </div>
+        	<div class="features_left">
+                <div class="tab_frame">
+                    <img src="images/featuresbg.png">
+                </div>
+        		<div id="ninja-slider" style="float:left;">
+                	<div class="slider-inner">
+                    <ul>
+                    	
+                        <li><a class="ns-img" href="images/tracking.png"></a></li>
+                        <li><a class="ns-img" href="images/child_management.png"></a></li>
+                        <li><a class="ns-img" href="images/screening.png"></a></li>
+                        <li><a class="ns-img" href="images/referral.png"></a></li>
+                        <li><a class="ns-img" href="images/aarush_planner.png"></a></li>
+                        <li><a class="ns-img" href="images/supply_management.png"></a></li>
+                        <li><a class="ns-img" href="images/medications_immu.png"></a></li>
+                        <li><a class="ns-img" href="images/disease_management.png"></a></li>
+                        <li><a class="ns-img" href="images/users.png"></a></li>
+                        <li><a class="ns-img" href="images/training.png"></a></li>
+                        <li><a class="ns-img" href="images/alerts_notifications.png"></a></li>
+                        <li><a class="ns-img" href="images/reports_dashboards.png"></a></li>
+                         <!--  <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                        <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                        <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                        <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                        <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                        <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                        <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                        <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                        <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                        <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                        <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                        <li><a class="ns-img" href="images/sparshscreen.png"></a></li>
+                         -->
+                    </ul>
+                    <div class="fs-icon" title="Expand/Close"></div>
+                </div>
+       			</div>
+                
+       		</div>
+            
+            
+        
+        </div>       
+       
+   
+        
+        
+    </div>
+    
+
+
+<script>
+$(document).ready(function(){
+    $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+    });
+    $('.nav-tabs a').on('shown.bs.tab', function(event){
+        var x = $(event.target).text();         // active tab
+        var y = $(event.relatedTarget).text();  // previous tab
+        $(".act span").text(x);
+        $(".prev span").text(y);
+    });
+});
+</script>
+
+</section> 
+<section class="section-top" id="diseases" >
+	<div class="container">
+		  
+        <h2>The Disease Catalogue</h2>
+        <h4 class="text-center">An all-inclusive medical classification list related to health conditions among children</h4>	
+        <ul class="diseases">
+        	<li  style="" id="defects" class="active">
+            	<div class="disease_icon "><img src="images/iconbg_1.png"></div>
+                <!-- <div class="disease_title wht">Defects at Birth</div> -->
+            </li>
+            
+            <li style="" id="deficiencies">
+            	<div class="disease_icon "><img src="images/iconbg_2.png"></div>
+                <!--<div class="disease_title wht">Deficiencies</div> -->
+            </li>
+            
+            
+            <li style="" id="other-diseases">
+            	<div class="disease_icon"><img src="images/iconbg_3.png"></div>
+               <!-- <div class="disease_title wht">Diseases</div> -->
+            </li>
+            
+            <li style="" id="devDelays">
+            	<div class="disease_icon"><img src="images/iconbg_4.png"></div>
+               <!-- <div class="disease_title wht">Dev. Delays</div> -->
+            </li>
+            
+            <li style=""id="Adoloscent">
+            	<div class="disease_icon"><img src="images/iconbg_5.png"></div>
+                <!-- <div class="disease_title wht">Adolescent Specific</div> -->
+            </li>
+            
+            
+            
+        </ul>
+        
+        <div class="disease_right">
+        	<div class="fullarticle"  id="article1" style="display:block">
+            <div class="disease_circle" >
+            	
+                	
+                	<ul>
+                    <h2>Defects at Birth</h2>
+                    
+                    	<li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Down Syndrome</li>
+                        <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Congenital Cataract</li>
+                        <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Cleft lip & Palate</li>
+                        <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Developmental dysplasia of the hip</li>
+                        <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Club Foot</li>
+                        <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Neural tube defect</li>
+                        <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Congenital heart diseases</li>
+                    </ul>
+            </div>
+            </div>
+            
+            <div class="fullarticle"  id="article2">
+                <div class="disease_circle" >
+                  
+                        
+                        <ul>
+                        <h2>Deficiency</h2>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;SAM</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Severe Anaemia</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Vitamin A Deficiency (Bitot spot)</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Vitamin D Deficiency, (Rickets) </li>
+                        </ul>
+                </div>
+           </div>
+            
+           <div class="fullarticle"  id="article3">
+                <div class="disease_circle" >
+                   
+                        
+                        <ul>
+                        <h2>Disease</h2>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Convulsive disorder</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Otitis Media</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Dental Conditions </li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Skin Conditions</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Reactive Airway Disease</li>
+                        </ul>
+                </div>
+           </div>
+            
+           <div class="fullarticle"  id="article4">
+                <div class="disease_circle" >
+                    
+                        
+                        <ul>
+                        <h2>Developmental delays</h2>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Neuro Motor Impairment</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Motor Delay</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Hearing Impairment</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Learning Disorder</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Vision Impairment</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Language delay</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Cognitive delay</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Behaviour disorder</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Convulsive disorder</li>
+                        </ul>
+                </div>
+           </div>
+            
+            <div class="fullarticle"  id="article5">
+                <div class="disease_circle">
+                    
+                        
+                        <ul>
+                        <h2>Adolescent Specific</h2>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Growing up concerns</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Substance abuse</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Depression</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Delay in menstruation cycles</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Irregular periods</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Experience any pain or burning sensation while urinating</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Discharge / foul smelling discharge from the genitourinary area</li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;Pain during menstruation</li>
+                        </ul>
+                </div>
+          	</div>
+        
+        </div>
+<script>
+$(document).ready(function(){
+    $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+    });
+    $('.nav-tabs a').on('shown.bs.tab', function(event){
+        var x = $(event.target).text();         // active tab
+        var y = $(event.relatedTarget).text();  // previous tab
+        $(".act span").text(x);
+        $(".prev span").text(y);
+    });
+});
+</script>
+
+
+      </div>
+</section>
+
+<section class="section-top" id="statistics">
+	<div class="container">
+		<h2>Statistics</h2>
+       <div class="satats_pic">
+       		
+       		<ul>
+            	<li>
+                	<img src="images/statistics_left.png">
+                </li>
+                <li>
+                	<img src="images/statistics_right.png">
+                </li>
+            </ul>		
+       </div>
+       
+       
+	</div>
+</section>
+
+<section class="section-top" id="clients" >
+	<div class="container">
+		<!-- <h2>Our Clients</h2>
+        <h4>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </h4>
+        <div class="clients_block">
+        	<ul>
+            	<li>
+                	<div class="client_logo"><img src="images/aplogo.png"></div>
+                    <div class="client_title">Andhra Pradesh</div>
+                </li>
+                <li>
+                	<div class="client_logo"><img src="images/uttarakhand_logo.png"></div>
+                    <div class="client_title">Uttarakhand</div>
+                </li>
+                <li>
+                	<div class="client_logo"><img src="images/odisha_logo.png"></div>
+                    <div class="client_title">Odisha</div>
+                </li>
+                <li>
+                	<div class="client_logo"><img src="images/mh_logo.png"></div>
+                    <div class="client_title">Maharastra</div>
+                </li>
+            </ul>
+        </div> -->
+       <h2>Directory</h2>
+       <h4>Directory <span>Prominent personnel in Tribal Welfare</span></h4>
+       <div class="row">
+    <div class="col-sm-2">
+    <nav class="nav-sidebar">
+        <ul class="nav tabs">
+          <li class="active"><a href="#tab1" data-toggle="tab">Primary Contacts</a></li>
+          <li class=""><a href="#tab2" data-toggle="tab">Dolor asit amet</a></li>
+          <li class=""><a href="#tab3" data-toggle="tab">Stet clita</a></li>                               
+        </ul>
+    </nav>
+        <!-- <div><h2 class="add">Place for your add!</h2></div> -->
+</div>
+<!-- tab content -->
+<div class="col-sm-10">
+<div class="tab-content">
+
+<div class="tab-pane active text-style" id="tab1">
+  
+      
+                <div style="overflow-x:auto;">
+                <table class="table_Styles" >
+                
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Designation</th>
+                            <th>Address</th>
+                            <th>Email ID</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sri Nakka Ananda Babu Garu </td>
+                            <td>Hon’ble Minister For SWE&TWE</td>
+              <td>Minister Office: Room No. 210,Block – III, 1st 
+Floor, A.P.Secretariat, Velagapudi, Amaravathi –
+522503 Phone: 0863-2443372 (O) 0863-
+2222919</td>
+                            <td><a href="mailto:"></a></td>
+                        </tr>
+                        <tr>
+                            <td>Sri R.P. Sisodia I.A.S,</td>
+                            <td>Principal Secretary, Tribal Welfare Dept.,</td>
+              <td>Secretariat Office:Room No. 214 (West), Block 
+– III, 1st Floor, A.P.Secretariat, Velagapudi, 
+Amaravathi – 522503 Phone: 0863-244 3146
+Fax: 0863-244 3148 </td>
+                            <td><a href="mailto:prlsecy_tw@ap.gov.in">prlsecy_tw@ap.gov.in,</a><br><a href="mailto:prlsecytwpeshi@gmail.com">prlsecytwpeshi@gmail.com</a></td>
+                        </tr>
+                    
+                        
+                    </tbody>
+                </table><br /><br />
+       <hr>
+       
+</div></div>
+<div class="tab-pane text-style" id="tab2">
+  
+   <h2>Head Office Contacts</h2><br />
+        <table class="table_Styles">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Designation</th>
+              <th>Contact Number</th>
+            </tr>
+          </thead>
+                          <tbody>
+                         <tr>
+                            <td>Dr. M.Padma, IAS</td>
+                            <td>Special Commissioner, Tribal Welfare</td>
+                            <td>0866-2494331 (Peshi),<br>
+0866-2494330 (Off)<br>
+0866-2494332 (Fax) <br><a href="mailto:apctwd@gmail.com">apctwd@gmail.com</a>
+ </td>
+                          </tr>
+                          <tr>
+                            <td>Sri B.V.Balayogi</td>
+                            <td>Additional Director (TW) (FAC) & JOINT DIRECTOR Administration</td>
+                            <td>(M):9490957066</td>
+                          </tr>
+                          <tr>
+                            <td>Sri E Ravindra Babu</td>
+                            <td>JD (Planning & Monitoring), JD (Education)</td>
+                            <td>(M): 9490537129</td>
+                          </tr>
+                          <tr>
+                            <td>Smt S Ratnamala</td>
+                            <td>Deputy Director Scholarships</td>
+                            <td>(M): 9490957346</td>
+                          </tr>
+                          <tr>
+                            <td>Smt D Chanchala</td>
+                            <td>Deputy Director Planning & Monitoring</td>
+                            <td>(M): 9490957067</td>
+                          </tr>
+                          <tr>
+                            <td>Sri CH A Manikumar</td>
+                            <td>Deputy Director Education</td>
+                            <td>(M): 9493454312</td>
+                          </tr>
+                          <tr>
+                            <td>Smt G Chandrika</td>
+                            <td>Deputy Director TSP ,IT & Health</td>
+                            <td>(M): 7382430584</td>
+                          </tr>
+                         
+                    </tbody>
+                    </table>
+    <hr>
+          
+</div>
+<div class="tab-pane text-style" id="tab3">
+  <h2>Stet clita</h2>
+  <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum 
+    iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla 
+    facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit 
+    augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
+    <hr>
+    <div class="col-xs-6 col-md-3">
+      
+  </div>
+</div>
+</div>
+</div>
+    
+    
+</div>
+</section> 
+<style>
+.table_Styles{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+
+</style>
+
+<!-- <section class="section-top" id="about" >
+	<div class="container">
+		<h2>About Us</h2>
+        
+          <p>
+<a href="http://www.3il.in" target="_blank" style="color:#fff;"><img src="images/footer_icon.png">&nbsp;</a>&nbsp;has begun taking small but distinctively significant steps as a Start-up accelerator company. We as a product company thrive on creativity and the thrill of bringing big ideas to market faster and better than our competitors. We are focused in marking our footprints in Healthcare, Education and Internet of Things (IoT). </p>
+<p>
+	We also set-up 'THE STAGE' for young and dynamic intrapreneurs and entrepreneurs in bringing their ideas to life. Our multicultural, challenging and fun environment creates the perfect work space for everyone on-board.
+</p>
+       
+	</div>
+</section> -->
+<section id="contact" class="section-top"  style="background-color:#FFC">
+	<div class="container">
+		<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+        	<h2>Contact</h2>
+
+           
+            <div class="contact_block">
+
+               <input type="text" value="" tabindex="1" placeholder="Your Name *" name="name" id="name1" onkeyup="if(this.value!='') {$('#name1').css('border-color', ''); }">
+               <input type="text" value="" tabindex="2" placeholder="Your Email *" name="email" id="email1" onkeyup="if(this.value!='') {$('#email1').css('border-color', ''); }">
+               <textarea  tabindex="3" placeholder="Message" name="message" id="message1"></textarea>
+             <button class="question_but" value="" onclick="return formVal()"><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;Ask The Question</button>
+            </div> 
+			<div class="address">
+            	<div class="footer_address">
+                 
+                   AP Tribal Welfare Department
+                    
+                    <br />
+                    <p>Secretariat Office:Room No. 214 (West), Block 
+– III, 1st Floor, A.P.Secretariat, Velagapudi, 
+Amaravathi – 522503</p>
+                   
+                </div>
+                <div class="footer_contact">
+                    <ul>
+                    <li><a href="#"><i class="fa fa-phone">Phone Numbers :</i>0863-244 3146</a></li>
+                <li><a href="#"><i class="fa fa-phone">Fax Number :</i>0863-244 3148</a></li>
+                <p>Email IDs:</p>
+               <li><a href="mailto:prlsecy_tw@ap.gov.in">prlsecy_tw@ap.gov.in</a></li>
+                     <a href="mailto:prlsecytwpeshi@gmail.com">prlsecytwpeshi@gmail.com</a></li>
+                    <a>Website : <a href="http://aptribes.gov.in/">http://aptribes.gov.in/</a>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            
+		</div>
+	</div>             
+	
+</section> 
+
+
+
+<footer class="footer">
+	<div class="scroll-up">
+        <a class="theme-color-bg" href="#home"><i class="fa fa-angle-up"></i></a>
+    </div>
+    <div class="copyright">Copyright © 2017 <A href="http://www.3il.in" target="_blank">Aadivasi Aarogyam</A> All rights reserved.</div> 
+   <!--  <div class="poweredby">Powered by <img src="images/footer_icon.png"></div> -->
+</footer>
+
+
+<script src="js/modernizr.custom.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.localScroll.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/jquery.ajaxchimp.js"></script>
+<script src="js/pathLoader.js"></script>
+<script src="js/custom.js"></script>
+
+<script src="js/moment/moment.min.js"></script>
+<script src="js/chart.min.js"></script>  
+<script src="js/bootstrap-progressbar.min.js"></script>
+<script src="js/icheck.min.js"></script>
+<script src="js/pace.min.js"></script> 
+<script>
+    Chart.defaults.global.legend = {
+      enabled: false
+    };
+
+    // Line chart
+    var ctx = document.getElementById("lineChart");
+    var lineChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        datasets: [{
+          label: "My First dataset",
+          backgroundColor: "rgba(38, 185, 154, 0.31)",
+          borderColor: "rgba(38, 185, 154, 0.7)",
+          pointBorderColor: "rgba(38, 185, 154, 0.7)",
+          pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+          pointHoverBackgroundColor: "#fff",
+          pointHoverBorderColor: "rgba(220,220,220,1)",
+          pointBorderWidth: 1,
+          data: [31, 74, 6, 39, 20, 85, 7]
+        }, {
+          label: "My Second dataset",
+          backgroundColor: "rgba(3, 88, 106, 0.3)",
+          borderColor: "rgba(3, 88, 106, 0.70)",
+          pointBorderColor: "rgba(3, 88, 106, 0.70)",
+          pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
+          pointHoverBackgroundColor: "#fff",
+          pointHoverBorderColor: "rgba(151,187,205,1)",
+          pointBorderWidth: 1,
+          data: [82, 23, 66, 9, 99, 4, 2]
+        }]
+      },
+    });
+
+    // Bar chart
+    var ctx = document.getElementById("mybarChart");
+    var mybarChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        datasets: [{
+          label: '# of Votes',
+          backgroundColor: "#26B99A",
+          data: [51, 30, 40, 28, 92, 50, 45]
+        }, {
+          label: '# of Votes',
+          backgroundColor: "#03586A",
+          data: [41, 56, 25, 48, 72, 34, 12]
+        }]
+      },
+
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        }
+      }
+    });
+
+    // Doughnut chart
+    var ctx = document.getElementById("canvasDoughnut");
+    var data = {
+      labels: [
+        "Dark Grey",
+        "Purple Color",
+        "Gray Color",
+        "Green Color",
+        "Blue Color"
+      ],
+      datasets: [{
+        data: [120, 50, 140, 180, 100],
+        backgroundColor: [
+          "#455C73",
+          "#9B59B6",
+          "#BDC3C7",
+          "#26B99A",
+          "#3498DB"
+        ],
+        hoverBackgroundColor: [
+          "#34495E",
+          "#B370CF",
+          "#CFD4D8",
+          "#36CAAB",
+          "#49A9EA"
+        ]
+
+      }]
+    };
+
+    var canvasDoughnut = new Chart(ctx, {
+      type: 'doughnut',
+      tooltipFillColor: "rgba(51, 51, 51, 0.55)",
+      data: data
+    });
+
+    // Radar chart
+    var ctx = document.getElementById("canvasRadar");
+    var data = {
+      labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+      datasets: [{
+        label: "My First dataset",
+        backgroundColor: "rgba(3, 88, 106, 0.2)",
+        borderColor: "rgba(3, 88, 106, 0.80)",
+        pointBorderColor: "rgba(3, 88, 106, 0.80)",
+        pointBackgroundColor: "rgba(3, 88, 106, 0.80)",
+        pointHoverBackgroundColor: "#fff",
+        pointHoverBorderColor: "rgba(220,220,220,1)",
+        data: [65, 59, 90, 81, 56, 55, 40]
+      }, {
+        label: "My Second dataset",
+        backgroundColor: "rgba(38, 185, 154, 0.2)",
+        borderColor: "rgba(38, 185, 154, 0.85)",
+        pointColor: "rgba(38, 185, 154, 0.85)",
+        pointStrokeColor: "#fff",
+        pointHighlightFill: "#fff",
+        pointHighlightStroke: "rgba(151,187,205,1)",
+        data: [28, 48, 40, 19, 96, 27, 100]
+      }]
+    };
+
+    var canvasRadar = new Chart(ctx, {
+      type: 'radar',
+      data: data,
+    });
+
+    // Pie chart
+    var ctx = document.getElementById("pieChart");
+    var data = {
+      datasets: [{
+        data: [120, 50, 140, 180, 100],
+        backgroundColor: [
+          "#455C73",
+          "#9B59B6",
+          "#BDC3C7",
+          "#26B99A",
+          "#3498DB"
+        ],
+        label: 'My dataset' // for legend
+      }],
+      labels: [
+        "Dark Gray",
+        "Purple",
+        "Gray",
+        "Green",
+        "Blue"
+      ]
+    };
+
+    var pieChart = new Chart(ctx, {
+      data: data,
+      type: 'pie',
+      otpions: {
+        legend: false
+      }
+    });
+
+    // PolarArea chart
+    var ctx = document.getElementById("polarArea");
+    var data = {
+      datasets: [{
+        data: [120, 50, 140, 180, 100],
+        backgroundColor: [
+          "#455C73",
+          "#9B59B6",
+          "#BDC3C7",
+          "#26B99A",
+          "#3498DB"
+        ],
+        label: 'My dataset' // for legend
+      }],
+      labels: [
+        "Dark Gray",
+        "Purple",
+        "Gray",
+        "Green",
+        "Blue"
+      ]
+    };
+
+    var polarArea = new Chart(ctx, {
+      data: data,
+      type: 'polarArea',
+      options: {
+        scale: {
+          ticks: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+<script src="js/validation.js"></script>
+</body>
+
+</html>
