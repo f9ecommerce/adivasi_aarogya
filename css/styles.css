@@ -613,7 +613,7 @@ header .only-logo .navbar .navbar-header {
     overflow: hidden;
     width: 100%;
     position: relative;
-    height: 100vh;
+    height: 50vh;
 
  }
 
@@ -2414,7 +2414,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .top-head{
   float: right;
-  top:7px;
+  top:0px;
 }
 
 .top-head p{
@@ -2424,8 +2424,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .head_item img{
-  width:60%;
-  margin-top:-28px;
+  width:88%;
+  margin-top:13px;
 
 }
 
